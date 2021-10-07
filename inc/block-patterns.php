@@ -4,8 +4,8 @@
  *
  * @since 0.1
  */
-if ( ! function_exists( 'quadrat_register_block_patterns' ) ) :
-	function quadrat_register_block_patterns() {
+if ( ! function_exists( 'twentytwentytwo_register_block_patterns' ) ) :
+	function twentytwentytwo_register_block_patterns() {
 		if ( function_exists( 'register_block_pattern_category' ) ) {
 			register_block_pattern_category(
 				'twentytwentytwo',
@@ -26,4 +26,4 @@ if ( ! function_exists( 'quadrat_register_block_patterns' ) ) :
 		}
 	}
 endif;
-add_action( 'init', 'quadrat_register_block_patterns', 9 );
+add_action( 'init', 'twentytwentytwo_register_block_patterns', 9 );
