@@ -40,3 +40,6 @@ if ( ! function_exists( 'twentytwentytwo_editor_styles' ) ) :
 	}
 	add_action( 'admin_init', 'twentytwentytwo_editor_styles' );
 endif;
+
+// Load block patterns
+require get_template_directory() . '/inc/block-patterns.php';
