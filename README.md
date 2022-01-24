@@ -1,3 +1,11 @@
+**This theme has been merged into the WordPress Core SVN repository, and is no longer maintained on GitHub.**
+
+**Please report all new bugs of reature requests on Trac: https://core.trac.wordpress.org/newticket.**
+
+**Browse open issues: https://core.trac.wordpress.org/search?q=twenty+twenty-two.**
+
+---
+
 # Twenty Twenty-Two
 
 Welcome to the development repository for the default theme that will launch with WordPress 5.9.
@@ -34,7 +42,7 @@ To get started with development:
 ## Requirements
 
 - Gutenberg plugin (latest)
-- WordPress 5.8+
+- WordPress 5.9+
 - PHP 5.6+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
@@ -51,7 +59,7 @@ You can install the test-specific development dependencies by running `npm i && 
 - `composer run analyze [filename.php]` statically analyzes PHP for bugs
 - `composer run lint` checks PHP for syntax errors
 - `composer run standards:check` checks PHP for standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/)
-- `composer run standards:fix` attemps to automatically fix errors
+- `composer run standards:fix` attempts to automatically fix errors
 
 ## Resources
 
